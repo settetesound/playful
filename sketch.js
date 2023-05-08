@@ -49,8 +49,8 @@ function mousePressed()  {
 function draw() {
  
   fill(0);
-  text("audible haikus for resting by Francesco Ameglio", 10, 15);
-  text("Matter Affect - Esc.rec.", 10, 30);
+  text("click on the shapes to activate the sound", 10, 15);
+  text("Have fun!", 10, 30);
   outputVolume(slider.value());
   
   for (let i = 0; i < bubbles.length; i++) {
