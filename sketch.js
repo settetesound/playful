@@ -49,7 +49,7 @@ function mousePressed()  {
 function draw() {
  
   fill(0);
-  text("click on the shapes to activate the sound", 10, 15);
+  text("click on the circles to activate the sound", 10, 15);
   text("Have fun!", 10, 30);
   outputVolume(slider.value());
   
