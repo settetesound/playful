@@ -20,7 +20,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth-40, windowHeight-40);
-  background(255); 
+  background(223, 217, 212); 
 
   slider = createSlider(0, 1, 1, 0.01);
   
